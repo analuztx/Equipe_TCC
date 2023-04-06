@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<conteudo>
+
+			<tituloinicio>
+			EvaCorp em combate à Covid-19
+			</tituloinicio>
+			<titulosobreinicio>
+			Sua proteção é a nossa prioridade!
+			</titulosobreinicio>
+
+			<titulo>SOBRE NÓS</titulo>
+			<corpo>A equipe EvaCorp tem como objetivo a promoção da conscientização do vírus Covid-19 e seus métodos de segurança, para que cada vez mais, menos pessoas se infectem com a doença, para que a proliferação, seja de uma vez por todas amenizada. Atualmente, depois da diminuição de casos do vírus, a preocupação das pessoas também amenizou, principalmente em atividade corriqueiras do dia à dia, no entanto, a circulação da doença ainda não acabou, e até que acabe completamente, o sistema EVA pode ajudar a amenizar os casos de Covid</corpo>
+
+			<titulosobre>
+						PROJETO EVA
+			</titulosobre>
+			<corposobre1>
+ 					O projeto EVA é um TCC (Trabalho de Conclusão de Curso), com o objetivo de ajudar
+					estabelecimentos comerciais com os métodos adotados contra a Covid-19, mas principalmente,
+					o projeto é feito para ajudar a sociedade a se manter segura diante um vírus ainda perigoso e devastador.
+			</corposobre1>
+
+			<tituloarduino>
+					SISTEMA ARDUINO
+			</tituloarduino>
+			<corpoarduino>
+            Integrado com o Sistema Arduino, o sistema Web é uma referência do distanciamento social no
+            estabelecimento comercial,
+            mostra-se em tempo real os indivíduos os quais estão descumprindo a ordem de distanciamento social,
+            estabelecido pela
+            OMS, 1 Metro e 50 Centímetros de distancia.
+			</corpoarduino>
+			<tituloweb>
+			SISTEMA WEB
+			</tituloweb>
+			<corpoweb>Integrado com o Sistema Arduino, o sistema Web é uma referência do distanciamento social no
+            estabelecimento comercial,
+            mostra-se em tempo real os indivíduos os quais estão descumprindo a ordem de distanciamento social,
+            estabelecido pela
+            OMS, 1 Metro e 50 Centímetros de distancia.</corpoweb>
+			<tituloapp>
+					APLICATIVO EVA
+			</tituloapp>
+			<corpoapp>
+					Com o novo aplicativo EVA, você pode obter segurança toda vez que for sair de casa.
+				Verifique se o estabelecimento de destino está lotado ou vazio, para que você possa sair e voltar para a sua casa protegido do vírus COVID-19!
+			</corpoapp>
+
+						<corpoapp2>
+GRATUITO NA PLAY E APPLE STORE
+			</corpoapp2>
+			<titulodistanciamento>
+					DISTANCIAMENTO SOCIAL
+			</titulodistanciamento>
+			<sobredistanciamento>
+		O distanciamento social foi uma das primeiras medidas tomadas
+        pelos Orgãos de Saúde por todo o Mundo, desde o início da
+        proliferação do vírus Covid-19
+
+        De acordo com a Recomendação N° 036, de 11 de Maio de 2020 feita
+        pelo presidente do Conselho Nacional de Saúde (CNS), considerando
+        as recomendações feitas pela OMS (Organização Mundial da Saúde),
+        solicita que sejam implementadas medidas de distanciamento social
+        no país, e que as organizações governamentais garantam que pelo
+        menos 60% da população estejam cumprindo este pedido, pois, é uma
+        estratégia importante para quando há indivíduos já infectados,
+        porém assintomático, que estão portando a doença, porém não estão
+        em isolamento, pois, não sentem sintomas.
+			</sobredistanciamento>
+		
+
+		<footer>
+		Termos de Uso • Políticas de Privacidade
+		</footer>
+
+		<footer2>
+		COPYRIGHT 2022 | EvaCorp
+		</footer2>
+	</conteudo>

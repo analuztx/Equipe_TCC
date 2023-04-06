@@ -1,0 +1,397 @@
+/* Letras */
+
+h1 {
+  font-size: 32px;
+  font-family: 'Poppins-LightItalic';
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: 25px;
+  font-family: Barlow-LightItalic;
+  text-align: center;
+}
+
+h4 {
+  color: black;
+  font-size: 19px;
+  font-family: 'Montserrat-Italic-VariableFont_wght';
+  ;
+  width: 210px;
+}
+
+h5 {
+  color: #000;
+  font-size: 14;
+  position: relative;
+}
+
+/* Início */
+
+#section1 {
+  padding: 200px 100px;
+  background-color: rgb(38, 38, 38);
+  filter: grayscale(100%);
+  box-shadow: 0 0 200px rgba(0, 0, 0, 0.9) inset;
+}
+
+.section1-2 {
+  background-color: rgba(38, 38, 38, 0.863);
+  box-shadow: 0 0 200px rgba(0, 0, 0, 0.9) inset;
+}
+
+#botao-inicial {
+  margin-top: 2%;
+  margin-left: 45%;
+  font-weight: bold;
+  border-radius: 500px;
+  align-items: center;
+}
+
+.cards {
+  bottom: 150px;
+  position: relative;
+  display: inline;
+}
+
+.titulo-area0 {
+  background-color: rgba(0, 0, 0, 0.251);
+  border-radius: 1rem;
+}
+
+.titulo{
+  font-family:'Courier New', Courier, monospace; 
+  font-weight: bold; 
+  text-align: center'
+}
+
+
+.bg-white {
+  border-radius: 3%;
+  box-shadow: 7px 10px 31px black;
+}
+
+.section2 {
+  padding: 10px 10px;
+}
+
+#section-total {
+  background-color: rgb(175, 175, 175);
+  box-shadow: 0 0 200px rgba(0, 0, 0, 0.9) inset;
+  height: 1550px;
+  margin-top: -50px;
+}
+
+.main-title {
+  top: -20%;
+}
+
+.section3 {
+  padding: 100px 20px;
+  background-color: rgba(0, 0, 0, 0.658);
+  box-shadow: 0 0 200px rgba(0, 0, 0, 0.9) inset;
+}
+
+.float-right {
+  margin-top: 2%;
+  text-align: center;
+  font-family: 'OpenSans-VariableFont_wdth';
+  font-size: 19px
+}
+
+.subtitle-one {
+  font-size: 35px;
+  margin-left: 5%;
+}
+
+.subtitle-two {
+  font-size: 35px;
+  margin-left: 10%;
+}
+
+.image-eva {
+  margin-top: 0%;
+  margin-left: -20%;
+  border-radius: 1rem;
+}
+
+.image-eva-web {
+  width: 110%;
+  border-radius: 1rem;
+  margin-left: -4%;
+}
+
+.description-mobile {
+  margin-top: 1%;
+  margin-left: -7%;
+  text-align: left;
+}
+
+.description-web {
+  margin-top: 1%;
+  margin-left: -7%;
+  text-align: left;
+}
+
+.image-app-mobile {
+  width: 110%;
+  border-radius: 1rem;
+  margin-left: -4%;
+}
+
+.fa-keyboard {
+  font-size: 60px;
+  display: flex;
+  margin-left: 0px;
+  margin-top: 15px;
+  color: rgb(255, 255, 255);
+  position: relative;
+  display: inline-block;
+}
+
+.icon-keyboard {
+  background-color: rgb(0, 0, 0);
+  width: 110px;
+  height: 100px;
+  margin-left: 0px;
+  position: relative;
+  display: inline-block;
+  border-radius: 5rem;
+  cursor: pointer;
+}
+
+
+.icon-keyboard:hover,
+.icon-handshake:hover,
+.icon-users:hover {
+  background: rgb(19, 97, 106);
+}
+
+.fa-handshake {
+  font-size: 60px;
+  display: flex;
+  margin-left: 0px;
+  margin-top: 15px;
+  color: rgb(255, 255, 255);
+  position: relative;
+  display: inline-block;
+}
+
+.icon-handshake {
+  background-color: rgb(0, 0, 0);
+  width: 110px;
+  height: 100px;
+  margin-left: 0px;
+  position: relative;
+  display: inline-block;
+  border-radius: 5rem;
+  cursor: pointer;
+}
+
+.fa-user {
+  font-size: 60px;
+  display: flex;
+  margin-left: 0px;
+  margin-top: 15px;
+  color: rgb(255, 255, 255);
+  position: relative;
+  display: inline-block;
+}
+
+.icon-users {
+  background-color: rgb(0, 0, 0);
+  width: 110px;
+  height: 100px;
+  margin-left: 0px;
+  position: relative;
+  display: inline-block;
+  border-radius: 5rem;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+
+/* Animação */
+
+[data-anime] {
+  opacity: 0;
+  transition: .3s;
+}
+
+[data-anime="left"] {
+  transform: translate3d(-50px, 0, 0);
+}
+
+[data-anime="right"] {
+  transform: translate3d(50px, 0, 0);
+}
+
+
+[data-anime].animate {
+  opacity: 1;
+  transform: translate3d(0px, 0px, 0px);
+}
+
+.area-0,
+.area-1,
+.area-2,
+.area-3 {
+  visibility: hidden;
+}
+
+.area-1,
+.area-2,
+.area-3 {
+  cursor: pointer;
+}
+
+
+/* Equipe */
+
+.card-body {
+  text-align: center;
+}
+
+.linkedin {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.50s;
+}
+
+.linkedin>* {
+  transform: translateY(20px);
+  transition: transform 0.50s;
+}
+
+.linkedin:hover {
+  opacity: 1;
+}
+
+.linkedin:hover>* {
+  transform: translateY(0);
+}
+
+.card img {
+  filter: grayscale(100%);
+}
+
+.sobre {
+  width: 700px;
+}
+
+
+#image-sobre {
+  filter: drop-shadow(10px 15px 20px rgb(0, 0, 0));
+}
+
+/* Distanciamento */
+
+#apply-area {
+  height: 500px;
+}
+
+#apply-area .container-fluid,
+#apply-area .row {
+  height: 100%;
+}
+
+#apply-area .apply-blox {
+  text-align: center;
+  padding: 70px 50px;
+}
+
+#company-img {
+  background-image: url('../img/distanciamentometro.jpg');
+  background-size: cover;
+  height: 100%;
+}
+
+.imagem-distanciamento {
+  filter: grayscale(100%);
+}
+
+@font-face {
+  src: url(../fonts/quicksand/Quicksand-VariableFont_wght.ttf);
+  font-family: 'Quicksand';
+}
+
+@font-face {
+  font-family: 'JosefinSans-VariableFont_wght';
+  src: url(../fonts/josefin/JosefinSans-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: 'Poppins-Regular';
+  src: url(../fonts/pop/Poppins-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'Poppins-LightItalic';
+  src: url(../fonts/pop/Poppins-LightItalic.ttf);
+}
+
+@font-face {
+  font-family: 'KdamThmorPro-Regular';
+  src: url(../fonts/kdam/KdamThmorPro-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'BebasNeue-Regular';
+  src: url(../fonts/bebas/BebasNeue-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'OpenSans-Italic-VariableFont_wdth';
+  src: url(../fonts/open/OpenSans-Italic-VariableFont_wdth\,wght.ttf);
+}
+
+@font-face {
+  font-family: 'OpenSans-VariableFont_wdth';
+  src: url(../fonts/open/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+
+@font-face {
+  font-family: 'Montserrat-Italic-VariableFont_wght';
+  src: url(../fonts/mont/Montserrat-Italic-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: 'Montserrat-VariableFont_wght';
+  src: url(../fonts/mont/Montserrat-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: JosefinSlab-Italic-VariableFont_wght;
+  src: url(../fonts/slab/JosefinSlab-Italic-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: JosefinSans-VariableFont_wght;
+  src: url(../fonts/slab/JosefinSlab-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: Barlow-ExtraLightItalic;
+  src: url(../fonts/barlow/Barlow-ExtraLightItalic.ttf);
+}
+
+@font-face {
+  font-family: Barlow-LightItalic;
+  src: url(../fonts/barlow/Barlow-LightItalic.ttf);
+}
+
+@font-face {
+  font-family: Barlow-Medium;
+  src: url(../fonts/barlow/Barlow-Medium.ttf);
+}
